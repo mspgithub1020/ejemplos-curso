@@ -29,6 +29,8 @@ namespace cursonet
                     sb.Append("FROM pizzeria.Curso");
                     String sql = sb.ToString();
 
+                    
+
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
