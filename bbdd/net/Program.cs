@@ -11,7 +11,6 @@ namespace cursonet
             try 
             { 
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-
                 builder.DataSource = "(local)"; 
                 // Aquí pon tu base de datos
                 builder.InitialCatalog = "Escuela";
