@@ -2,7 +2,7 @@
 obj
 bin
 
-
+.settings
 ### Java ###
 # Compiled class file
 *.class
